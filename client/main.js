@@ -6,7 +6,7 @@ Template.blog.events({
     var title = tmpl.find('#blogTitle').value,
         body = tmpl.find('#blogBody').value;
 
-    Meteor.call('submitPost', title, body);
+    Meteor.call('submitContent', title, body);
 
   }
 })
